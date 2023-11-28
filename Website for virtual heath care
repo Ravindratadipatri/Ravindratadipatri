@@ -1,0 +1,616 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+.logo img{
+    height: 50px;
+    width: 50x;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+    font-size: 1pc;
+    font-family: sans-serif;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar li{
+    margin-right: 20px;
+}
+.navbar button{
+    background-attachment: white;
+    border: none;
+    padding: 13px;
+    font-weight: bold;
+}
+.navbar button:hover{
+    background-color: black;
+    color:aqua;
+}
+
+/* HEADER  CSS CODE STARTS */
+
+
+.header{
+    background-image: url(./istockphoto-1365176115-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.header h1{
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.header h2{
+  color:rgb(196, 255, 220);
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  
+
+}
+.header button{
+    background-attachment: red;
+    border: none;
+    padding: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+}
+.header button:hover{
+    background-color:aqua;
+    color: red;
+}
+
+
+/* SLIDER CODE STARTS */
+
+.slideshow-container {
+    max-width: 500vw;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color:#ff00ee;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color:red;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* VIRTUAL HEALATH CARE STARTS: */
+
+.virtual-health{
+    background-image: url(./stethoscope-2359757_1280.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.virtual-health .left{
+  height: 50vh;
+  width: 300px;
+  background-image: url(./online-consultation-7988709_1280.webp);
+  background-size:cover;
+  color: white;
+  text-align:left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+
+.virtual-health .right{
+    height: 50vh;
+    width: 300px;
+    background-image: url();
+    background-size:cover;
+    color: black;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+.virtual-health button:hover{
+  background-color:black;
+  color: white;
+}
+
+
+/* SERVICE SECTION:*/
+
+.services {
+  background-image: url(./istockphoto-1365176115-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 30px;
+}
+.v-health {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.v-health .left{
+height: 50vh;
+width: 300px;
+background-image: url(./telemedicine-6166814_1280.jpg);
+background-size:cover;
+color: white;
+text-align:left;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+
+}
+.v-health .centre{
+height: 50vh;
+width: 300px;
+background-image: url(./nursing.webp);
+background-size:cover;
+color: white;
+text-align:left;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+text-align: center;
+font-size: 15px;
+font-weight: bold;
+}
+
+
+.v-health .right{
+  height: 50vh;
+  width: 300px;
+  background-image: url(./nursingcare.jpg);
+  background-size:cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+
+}
+.v-health button:hover{
+background-color:black;
+color: white;
+}
+
+/* PHARMACETUAL SECTION: */
+
+
+.service {
+  background-image: url(./corona-5002341_1280.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.vi-health {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.vi-health .left{
+height: 50vh;
+width: 300px;
+background-image: url(./vitamins-7661774_1280.webp);
+background-size:cover;
+color: white;
+text-align:left;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+text-align: center;
+font-size: 15px;
+
+}
+.vi-health .centre{
+height: 50vh;
+width: 300px;
+background-image: url(./ayurveda-7065690_1280.jpg);
+background-size:cover;
+color: white;
+text-align:left;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+text-align: center;
+font-size: 15px;
+}
+
+
+.vi-health .right{
+  height: 50vh;
+  width: 300px;
+  background-image: url(./homeopathy-1079808_1280.webp);
+  background-size:cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 15px;
+
+}
+.vi-health button:hover{
+background-color:#ff00ee;
+color: white;
+font-weight: bold;
+border: none;
+}
+
+
+
+/* FOOTER CODE STARTS: */
+
+.footer{
+  background-color: palegreen;
+  text-align: center;
+  padding: 20px;
+  line-height: 40px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: red;
+  margin: 0px 20px;
+}
+
+
+
+
+/* CONTACT PAGE CSS CODE STARTS: */
+.contact{
+  background-image: url(./istockphoto-1365176115-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.contact-inner{
+  background-color:white;
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+  padding: 20px;
+}
+.contact input{
+  padding: 10px 20px;
+  outline: none;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+
+}
+.contact label{
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: block;
+}
+
+.contact-inner form{
+  width: 60%;
+  margin: auto;
+}
+
+form div{
+  margin-bottom: 20px;
+}
+
+.gender-btns{
+  display: flex;
+  width: 70%;
+
+}
+.submit-btn{
+  padding: 10px 10px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+
+/* LOCATION SECTION: */
+
+.location h1{
+  text-align: center;
+  font-family: calibri;
+  letter-spacing: 20px;
+}
+.location iframe{
+  width: 100%;
+  height: 50%;
+}
+
+/* LOCATION CODE ENDS */
+
+/* CONTACT CODE STARTS: */
+
+.con-mobile{
+  text-align: center;
+  padding: 30px 10px;
+  color: rgb(from color r g b);
+}
+
+/* CONTACT CODE ENDS */
+
+
+/* BOOK SLOT CODE START*/
+
+.bookslot-btn{
+  text-align: center;
+  padding: 10px 10px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+
+
+}
+
+
+/* ABOUT PAGE: */
+
+.about-health{
+  background-image: url(./corona-5002341_1280.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+
+.about-health {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.about-health .left{
+  height: 30vh;
+  width: 150px;
+  background-image: url(./SURYA\ LATEST\ IMG.jpg);
+  background-size:cover;
+  color: white;
+  text-align:left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.about-health .right{
+  height: 50vh;
+  width: 300px;
+  background-image: url(./aboutpic.avif);
+  background-size:cover;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 15px;
+  font-style: italic;
+}
+
+/* login code */
+.login{
+  background-image: url(./istockphoto-1365176115-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.login-inner{
+  background-color:blue;
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+  padding: 20px;
+}
+.login input{
+  padding: 10px 20px;
+  outline: none;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+
+}
+.login label{
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: sans-serif;
+  display: block;
+}
+
+.login-inner form{
+  width: 60%;
+  margin: auto;
+}
+
+form div{
+  margin-bottom: 20px;
+}
+
+.gender-btns{
+  display: flex;
+  width: 70%;
+
+}
+.submit-btn{
+  padding: 10px 10px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+
+.abt-health{
+  background-image: url(./corona-5002341_1280.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+
+.abt-health {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.abt-health .left{
+  height: 50vh;
+  width: 300px;
+  background-image: url(./aboutpic.avif);
+  background-size:cover;
+  color: white;
+  text-align:left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 15px;
+  
+  }
+  
+  
+  .abt-health .right{
+    height: 50vh;
+    width: 300px;
+    background-image: url();
+    background-size:cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+  
+  }
+
+
+
